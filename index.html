@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Vinko | Login
+        </title>
+    </head>
+    <style>
+        #barSuperior{
+            height: 100px;
+            background-color: #ED9455;
+            color: #ffffff;
+            /* padding: 30px; */
+        }
+        #signupButton{
+            font-size: 20px;
+            background-color: #007F73;
+            width: 80px;
+            text-align: center;
+            padding: 4px;
+            border-radius: 20px;
+            float: right;
+            color: #ffffff;
+        }
+        #bkForms{
+            background-color: white;
+            width: 800px; 
+            height: 400px; 
+            margin: auto; 
+            margin-top: 100px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 15px;
+        }
+        #inputField{
+            width: 200px;
+            height: 20px;
+            border-radius: 8px;
+            border: solid 1px #aaa;
+            padding: 4px;
+        }
+        #button{
+            width: 212px;
+            height: 40px;
+            border-radius: 8px;
+            border:none;
+            font-weight: bold;
+            background-color: #ED9455;
+            color: white;
+        }
+        @media screen and (max-width: 500px) {
+ 
+            #barSuperior,
+            #signupButton,
+            #inputField,
+            #button,
+            #bkForms{
+                width: 50%;
+            }
+        }
+    </style>
+
+    <body style="font-family: tahoma; background-color: #FFFBDA;">
+     
+        <div id="barSuperior"> 
+            <h1 style="font-size: 40px; padding-top: 20px; padding-left: 20px;"> Vinko </h1> 
+            <div id="signupButton" style="margin-top: -40px; margin-right: 15px;"> SignUp </div>
+        </div>
+
+        <div id="bkForms";>
+            <h2 style="margin-top: 50px; font-size: 30px;"> Login to Vinko </h2>
+            <form style="padding: 50px;">
+                <input placeholder="E-mail" id="inputField" type="text" id="email" name="email"><br><br>
+                <input placeholder="Password" id="inputField" type="password" id="pw" name="pw"><br><br><br>
+                <input id="button" type="submit" value="Login">
+            </form>
+        </div>
+        
+    </body>
+
+</html>
